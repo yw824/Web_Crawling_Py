@@ -1,7 +1,7 @@
 # 파이썬에서 비동기 프로그래밍 활용하기
 
 - 출처 : https://sjquant.tistory.com/15
-- Github 소스 코드 : 
+- Github 소스 코드 : https://github.com/yw824/Web_Crawling_Py/tree/main/Asyncio
 
 - 비동기적 방식을 이용하면 네트워크의 IO의 지연 때문에 
 > 낭비되는 시간을 줄일 수 있다.
