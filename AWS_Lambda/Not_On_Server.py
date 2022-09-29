@@ -1,0 +1,16 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.google.com"
+response = requests.get(url)
+html = response.text
+soup = BeautifulSoup(html, 'html.parser')
+links = soup.select('a')
+
+result_list = []
+
+for link in links:
+    title = link.text
+    result_list.append(title)
+
+print(result_list)
