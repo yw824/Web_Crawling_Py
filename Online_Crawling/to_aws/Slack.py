@@ -7,8 +7,8 @@ from datetime import datetime
 class Slack:
 
     def toSlack():
-        SLACK_TOKEN = 'xoxb-3991850237587-3994481885252-OMVQU6Lrn6KRG7JC5SGezxto'
-        SLACK_CHANNEL = '#msgfrombot2'
+        SLACK_TOKEN = 'INPUT_SLACK_TOKEN'
+        SLACK_CHANNEL = '#INPUT_SLACK_CHANNEL'
         repo = Repo()
         
         today = datetime.now()
